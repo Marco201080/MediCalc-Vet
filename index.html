@@ -276,6 +276,38 @@ table tfoot td:nth-last-child(2) {
 #version-modal .btn-x:hover { background: rgba(255,255,255,.06); color: #e5e7eb; }
 </style>
 
+<style>
+/* === Landscape fixes for table 2 & 3 headers (rowbar alignment) === */
+@media (orientation: landscape) {
+  .card > .rowbar { gap: 10px; }
+  .card > .rowbar > strong { 
+    flex: 1 1 auto; 
+    min-width: 200px; 
+  }
+  .card > .rowbar > .rowbar {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+  .card select.btn { 
+    min-width: 170px; 
+  }
+  .btn, .btn.accent, .btn.danger, .btn.ghost {
+    vertical-align: middle;
+    line-height: 1.1; 
+  }
+  #btn-toggle-1, #btn-toggle-2, #btn-toggle-3 {
+    padding: 0 8px !important;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+</style>
 </head>
 <body>
   <div class="wrap">
