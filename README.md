@@ -48,7 +48,7 @@ Rechtliche Grundlage in Deutschland: Tierarzneimittelgesetz (TAMG) und Arzneimit
 - HTML5, CSS3, JavaScript (ohne externe Frameworks)  
 - Speicherung über LocalStorage  
 - Service Worker & Manifest für PWA-Funktionalität  
-
+---> gern passe ich das Pogramm für sie an
 ## Lizenz
 
 MIT License  
